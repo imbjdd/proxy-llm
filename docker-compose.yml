@@ -1,0 +1,5 @@
+services:
+  echo-server:
+    image: imbjddbjdd/image:tag
+    network_mode: host
+    restart: unless-stopped
